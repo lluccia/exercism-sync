@@ -1,0 +1,1 @@
+.array | flatten | [ .[] | select (.!=null) ]
